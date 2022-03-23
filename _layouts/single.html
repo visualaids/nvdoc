@@ -52,14 +52,14 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
+        <span class="author__name p-name" itemprop="name">
+            <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">作者：{{ author.name }}</a>
+        </span>    
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
       {% include post_pagination.html %}
-      作者：<span class="author__name p-name" itemprop="name">
-          <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name }}</a>
-      </span>
     </div>
 
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
