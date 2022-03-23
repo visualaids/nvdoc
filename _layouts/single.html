@@ -14,6 +14,9 @@ layout: default
   {% endunless %}
 {% endif %}
 
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
