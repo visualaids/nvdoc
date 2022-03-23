@@ -1,6 +1,7 @@
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
 {% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 
 {% if page.last_modified_at %}
   <p class="page__date">
