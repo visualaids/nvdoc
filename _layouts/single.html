@@ -14,8 +14,6 @@ layout: default
   {% endunless %}
 {% endif %}
 
-{% assign author = page.author | default: page.authors[0] | default: site.author %}
-
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -51,10 +49,7 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-        {% include page__date.html %}
-        <span class="author__name p-name" itemprop="name">
-            <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">作者：{{ author.name }}</a>
-        </span>    
+        {% include page__date_author.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
