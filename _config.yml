@@ -19,10 +19,10 @@ locale                   : "zh-TW"
 title                    : "NVDA 文件庫"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "NVDA 台灣志工群"
 description              : "彙整 NVDA 常見問題與技術資料。"
 url                      : "https://visualaids.github.io/nvda-doc/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/nvda-doc"
 repository               : "visualaids/nvda-doc"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -59,17 +59,17 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
 google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+  search_engine_id       : b96f523e7e58ad974
+  instant_search         : false
 # SEO Related
 google_site_verification :
 bing_site_verification   :
