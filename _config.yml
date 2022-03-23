@@ -21,8 +21,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "台灣 NVDA 志工群"
 description              : "彙整 NVDA 常見問題與技術資料。"
-url                      : "https://visualaids.github.io/nvda-doc/"
-baseurl                  : "/nvda-doc"
+url                      : "https://visualaids.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/nvda-doc" # the subpath of your site, e.g. "/blog"
 repository               : "visualaids/nvda-doc"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -103,9 +103,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "無名氏"
+  name             : "管理員"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "NVDA 文件庫管理員。"
   location         : "台灣"
   email            :
   links:
