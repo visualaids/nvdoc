@@ -62,7 +62,7 @@ atom_feed:
   hide                   : # true, false (default)
 search                   : true
 search_full_content      : true
-search_provider          : algolia
+search_provider          : google
 algolia:
   application_id         : O6KUVB0OKU # YOUR_APPLICATION_ID
   index_name             : nvdoc # YOUR_INDEX_NAME
@@ -72,8 +72,10 @@ algolia:
 google:
   search_engine_id       : b96f523e7e58ad974
   instant_search         : false
+# Google AdSense
+google_ad_client         : ca-pub-1313459269800231
 # SEO Related
-google_site_verification :
+google_site_verification : MB5wpj2lv6QBe5BZShRUOHDe_rVyfdaxV3XWSS94rDk
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
