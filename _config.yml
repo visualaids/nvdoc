@@ -19,11 +19,11 @@ locale                   : "zh-TW"
 title                    : "NVDA 文件庫"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "台灣 NVDA 志工群"
-description              : "彙整 NVDA 常見問題與技術資料。"
+name                     : "非視覺文件志工"
+description              : "彙整視障者使用電腦軟體的相關問題與技術文件。"
 url                      : "https://visualaids.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/nvda-doc" # the subpath of your site, e.g. "/blog"
-repository               : "visualaids/nvda-doc"
+baseurl                  : "/nvdoc" # the subpath of your site, e.g. "/blog"
+repository               : "visualaids/nvdoc"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -105,7 +105,7 @@ analytics:
 author:
   name             : "管理員"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "NVDA 文件庫管理員。"
+  bio              : "文件庫管理員。"
   location         : "台灣"
   email            :
   links:
