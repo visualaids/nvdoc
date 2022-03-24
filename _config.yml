@@ -68,6 +68,7 @@ algolia:
   index_name             : nvdoc # YOUR_INDEX_NAME
   search_only_api_key    : fff30d75274175a2f05e9a78bfd9d4bc # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
+  files_to_exclude       : # - _posts/2017-11-28-post-exclude-search.md
 google:
   search_engine_id       : b96f523e7e58ad974
   instant_search         : false
