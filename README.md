@@ -1,6 +1,6 @@
-# NVDA 文件庫
+# Non-Visuall Document for the Blinds
 
-如果您只是要閱讀相關文件，請由此連結進入：[NVDA 知識網](https://visualaids.github.io/nvda-doc/)。
+如果您只是要閱讀相關文件，請由此連結進入：[非視覺文件庫](https://visualaids.github.io/nvdoc/)。
 
 網頁排版樣式取自 [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes)。
 
