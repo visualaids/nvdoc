@@ -1,4 +1,4 @@
-# Non-Visuall Document for the Blinds
+# Non-Visual Document for the Blinds
 
 如果您只是要閱讀相關文件，請由此連結進入：[非視覺文件庫](https://visualaids.github.io/nvdoc/)。
 
