@@ -1,5 +1,16 @@
+---
+title: "安裝 Git for Windows 的步驟"
+categories:
+  - 軟體應用
+tags:
+  - Excel
+---
 
-安裝 Windows 版的 Git
+這篇文章要告訴你的是：安裝 Git for Windows 的步驟。
+
+作者：蔡煥麟
+
+以下步驟已在 Windows 10 和 Windows 11 環境上測試過：
 
 1. 用瀏覽器開啟網址 https://gitforwindows.org/，在此頁面中找到 Download 按鈕，點擊此按鈕即可下載目前最新版本的 Git for Windows 安裝程式。待下載完成後，執行此安裝程式。
 2. 安裝程式啟動之後，連續按 Next 按鈕，直到這個步驟：「Choosing the default editor used by git」。此步驟是要讓你指定 git 的預設文字編輯器。由於某些歷史原因，預設的編輯器是 Vim，所以建議你在這個步驟的下拉清單挑選自己慣用的文字編輯器。例如，你可以選擇  Notepad 或 Notepad++ 作為預設的文字編輯器。請不用擔心選錯編輯器會造成什麼嚴重影響，因為後來寫文章或修改任何檔案的時候，也都可以用你慣用的文字編輯器。這裡的預設編輯器指的是有些 git 指令的執行過程中會需要你輸入一串文字，此時就會自動開啟預設編輯器來讓你輸入文字。一般而言，選擇 Notepad 就可以了。選定之後，按 Next。
@@ -8,18 +19,10 @@
 接著請按下列步驟來確認 Git 是否安裝成功：
 
 1. 開啟 Windows 的命令視窗，作法是：按 Win+R，然後輸入 `cmd`，按 Enter 鍵，即可開啟命令視窗。
-2. 在命令視窗中輸入 `git`，然後按 Enter 鍵。此時如果出現一堆 git 用法說明的文字，即表示 Git 已經安裝成功，未來只要開啟命令視窗，便可在任何目錄下執行 git 指令。但如果此步驟出現的訊息是找不到 git 命令，那就表示前面的安裝步驟沒有成功，請再嘗試安裝一次。
+2. 在命令視窗中輸入 `git`，然後按 Enter 鍵。此時如果出現一堆 git 用法說明的文字，即表示 Git 已經安裝成功。但如果此步驟出現的訊息是找不到 git 命令，那就表示前面的安裝步驟沒有成功，請再嘗試安裝一次。
 
+確認 git 安裝成功之後，未來只要開啟命令視窗，便可在任何目錄下執行任何 git 指令。
 
+此外，如果你比較習慣使用圖形視窗介面來執行 git 相關操作，也可以下載其他 git 用戶端工具，例如 TortoiseGit 就是一個很方便、容易上手的工具，它會在檔案總管的右鍵視窗裡面加入一些常用的 git 命令，只要用挑選的方式就能執行。
 
-1. 使用 git clone 指令來將整個 nvdoc 檔案庫取回至本機電腦。
-
-假設你要把檔案庫取回至本機電腦的 d:\work 目錄底下，指令為：
-
-d:
-cd \work
-git clone https://github.com/visualaids/nvdoc.git
-
-指令順利執行完畢之後，在 d:\work 目錄底下就會有一個 nvdoc 目錄，裡面包含 nvdoc 全部檔案。
-
-2. 建立一篇新文章。
+如欲下載 TortoiseGit，可以至[官方網站的下載頁面](https://tortoisegit.org/download/)，根據自己的作業地統下載 32-bit Windows 或 64-bit Windows 的版本來安裝。該頁面下方也有語言包，例如「Chinese, traditional」就是繁體中文語言包，也有區分 32 bit 和 64 bit 兩種版本的安裝程式。
