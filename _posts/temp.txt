@@ -1,0 +1,20 @@
+
+安裝 Windows 版的 Git
+
+1. 用瀏覽器開啟網址 https://gitforwindows.org/，在此頁面中找到 Download 按鈕，點擊此按鈕即可下載目前最新版本的 Git for Windows 安裝程式。待下載完成後，執行此安裝程式。
+2. 安裝程式啟動之後，連續按 Next 按鈕，直到這個步驟：「Choosing the default editor used by git」。此步驟是要讓你指定 git 的預設文字編輯器。由於某些歷史原因，預設的編輯器是 Vim，但這個視窗裡面有一個下拉清單，可以讓你選擇自己慣用的文字編輯器。例如，你可以選擇  Notepad 或 Notepad++ 作為預設的文字編輯器。請不用擔心選錯編輯器會造成什麼嚴重影響，因為後來寫文章或修改任何檔案的時候，也都可以用你慣用的文字編輯器。這裡的 Git 預設編輯器指的是有些 git 指令的執行過程中會需要你輸入一串文字，此時就會開啟預設編輯器來讓你輸入文字。一般而言，選擇 Notepad 就可以了。選定之後，按 Next。
+3. 連續按幾次 Next 按鈕，直到最後一個步驟，可以看到 Install 按鈕，點此按鈕即可執行安裝。安裝完成後的視窗，裡面會有一個 Finish 按鈕，點此按鈕來關閉安裝程式。關閉安裝程式的時候，可能會同時用瀏覽器開啟 Git for Windows 的版本說明頁面，直接關閉即可。
+
+
+
+1. 使用 git clone 指令來將整個 nvdoc 檔案庫取回至本機電腦。
+
+假設你要把檔案庫取回至本機電腦的 d:\work 目錄底下，指令為：
+
+d:
+cd \work
+git clone https://github.com/visualaids/nvdoc.git
+
+指令順利執行完畢之後，在 d:\work 目錄底下就會有一個 nvdoc 目錄，裡面包含 nvdoc 全部檔案。
+
+2. 建立一篇新文章。
