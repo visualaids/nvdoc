@@ -24,6 +24,6 @@ tags:
 
 確認 git 安裝成功之後，未來只要開啟命令視窗，便可在任何目錄下執行任何 git 指令。
 
-此外，如果你比較習慣使用圖形視窗介面來執行 git 相關操作，也可以下載其他 git 用戶端工具，例如 TortoiseGit 就是一個很方便、容易上手的工具，它會在檔案總管的右鍵視窗裡面加入一些常用的 git 命令，只要用挑選的方式就能執行。
+此外，如果你比較習慣使用圖形視窗介面來執行 git 相關操作，也可以下載其他 git 用戶端工具，例如 TortoiseGit 就是一個很方便、容易上手的工具，它會在檔案總管的右鍵選單裡面加入一些常用的 git 命令，只要用挑選的方式就能執行。
 
-如欲下載 TortoiseGit，可以至[官方網站的下載頁面](https://tortoisegit.org/download/)，根據自己的作業地統下載 32-bit Windows 或 64-bit Windows 的版本來安裝。該頁面下方也有語言包，例如「Chinese, traditional」就是繁體中文語言包，也有區分 32 bit 和 64 bit 兩種版本的安裝程式。
+如欲下載 TortoiseGit，可以至[官方網站的下載頁面](https://tortoisegit.org/download/)，根據自己的作業系統下載 32-bit Windows 或 64-bit Windows 的版本來安裝。該頁面下方也有語言包，例如「Chinese, traditional」就是繁體中文語言包，也有區分 32 bit 和 64 bit 兩種版本的安裝程式。
