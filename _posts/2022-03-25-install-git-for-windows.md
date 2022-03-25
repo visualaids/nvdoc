@@ -3,7 +3,8 @@ title: "安裝 Git for Windows 的步驟"
 categories:
   - 軟體應用
 tags:
-  - Excel
+  - git
+  - 版本控制
 ---
 
 這篇文章要告訴你的是：安裝 Git for Windows 的步驟。
