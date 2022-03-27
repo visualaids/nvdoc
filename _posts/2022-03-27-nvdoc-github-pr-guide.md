@@ -54,7 +54,7 @@ git pull
 git push origin
 ```
 
-備註：這裡假設你的作業環境是 Windows 10 或更新的版本。如果你的作業系統是 MacOS 或 Linux，在指令的部分應該也是大同小異。
+備註：這裡假設你的作業環境是 Windows 10 或更新的版本。如果你的作業系統是 MacOS 或 Linux，git 指令應該是大同小異。
 
 接下來，讓我們開始第一個步驟。
 
