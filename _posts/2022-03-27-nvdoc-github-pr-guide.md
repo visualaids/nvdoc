@@ -1,8 +1,24 @@
-# NVDOC 專案的 Github 操作指南
+---
+title: "使用 GitHub Pull Request 流程來發布文章"
+date: 2022-03-27
+categories:
+  - 寫作
+tags:
+  - 寫作指南
+---
 
-摘要：本文是針對視障者操作 NVDOC 專案原始碼所撰寫的簡易說明。
+摘要：本文是針對視障者使用 Git Pull Request 流程來將文章發布至  NVDOC 網站所撰寫的操作說明。
 
 作者：蔡煥麟
+
+## 前言
+
+撰寫文章並發布至 nvdoc 網站的方法有兩種：
+
+- 方法一：透過 GitHub 網站的 Pull Request 機制來提交變更。此方法由於牽涉儲存庫的合併請求流程，會需要事先了解 git 的相關操作。
+- 方法二：在「[草稿儲存庫](https://github.com/visualaids/draft)」中編寫文章，並由相關人員校稿。待校稿完成後，通知 nvdoc 管理員，並由管理員來執行 Pull Request 流程與檔案的合併操作。此方法的程序比第一種方法簡單一些，但缺點是無法在 nvdoc 專案中自動累計文章作者與其校稿人員的貢獻度。
+
+兩種方法各有優缺點，本文介紹的是第一種，也就是 GitHub 多人協作的標準做法。如果你覺得此方法太過複雜，亦可參考另一篇文章：[文章的編寫與發布（簡易方法）](https://visualaids.github.io/nvdoc/%E5%AF%AB%E4%BD%9C/nvdoc-writing-posts/)。
 
 ## 簡介
 
@@ -155,3 +171,7 @@ Pull Request 是一種通知與審核機制，簡稱 PR。當你想要將自己�
 接著在頁面下方找到 Create pull request 按鈕，點此按鈕即可建立 PR。接下來，就是等待原專案的作者或管理員審閱你的變更請求，一旦完成合併，你的文章應該就會出現在 nvdoc 網站。
 
 你也可以到 [nvdoc 原始專案的 Pull requests 頁面](https://github.com/visualaids/nvdoc/pulls)查看自己建立的 PR 是否還在等待合併。
+
+## 結語
+
+以上就是透過 GitHub Pull Request 機制來發布文章的作法。如果你覺得太過複雜，亦可參考另一篇文章：[文章的編寫與發布（簡易方法）](https://visualaids.github.io/nvdoc/%E5%AF%AB%E4%BD%9C/nvdoc-writing-posts/)。
