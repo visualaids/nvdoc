@@ -18,7 +18,7 @@ tags:
 - 方法一：透過 GitHub 網站的 Pull Request 機制來提交變更。此方法由於牽涉儲存庫的合併請求流程，會需要事先了解 git 的相關操作。
 - 方法二：在「[草稿儲存庫](https://github.com/visualaids/draft)」中編寫文章，並由相關人員校稿。待校稿完成後，通知 nvdoc 管理員，並由管理員來執行 Pull Request 流程與檔案的合併操作。此方法的程序比第一種方法簡單一些，但缺點是無法在 nvdoc 專案中自動累計文章作者與其校稿人員的貢獻度。
 
-兩種方法各有優缺點，本文介紹的是第一種，也就是 GitHub 多人協作的標準做法。如果你覺得此方法太過複雜，亦可參考另一篇文章：[文章的編寫與發布（簡易方法）](https://visualaids.github.io/nvdoc/%E5%AF%AB%E4%BD%9C/nvdoc-writing-posts/)。
+兩種方法各有優缺點，本文介紹的是第一種，也就是 GitHub 多人協作的標準做法。優點是可以了解目前業界廣泛採用的多人協同合作流程，而且所有參與文章寫作與校稿的人員，其貢獻度都會由 GitHub 自動統計。但如果你覺得此方法太過複雜，亦可參考另一篇文章：[文章的編寫與發布（簡易方法）](https://visualaids.github.io/nvdoc/%E5%AF%AB%E4%BD%9C/nvdoc-writing-posts/)。
 
 ## 簡介
 
