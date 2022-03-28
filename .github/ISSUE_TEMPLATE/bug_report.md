@@ -1,6 +1,6 @@
 ---
-name: "Bug Report"
-about: "Is something not working as expected?"
+name: "Bug 回報"
+about: "是否哪些地方出錯、或者需要修正？"
 ---
 
 <!--
