@@ -1,4 +1,4 @@
-name: 文件
+name: Documentation
 description: 發現文章有錯字或寫得不夠清楚的地方嗎？
 body:
   - type: markdown
