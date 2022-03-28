@@ -1,5 +1,5 @@
 ---
-title: "好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧"
+  : "好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧"
 categories:
   - 好軟體推薦
 tags: 
@@ -8,7 +8,7 @@ date: 2022-03-28
 ---
 
 作者:小羔羊
-我的更多原創文章可以到[這裡](https://lamb.tw/)閱讀!
+
 
 ### 好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧
 
@@ -72,3 +72,8 @@ Download location按鈕
 1. tab找
 Download按鈕
 按enter，就會開始下載了
+
+
+---
+
+如果想閱讀我的更多原創文章，可以到我的網站→[小羔羊分享站](https://lamb.tw/)
