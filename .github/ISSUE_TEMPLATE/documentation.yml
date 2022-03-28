@@ -1,5 +1,5 @@
-name: Documentation
-description: Found a typo or something that needs clarification?
+name: 文件
+description: 發現文章有錯字或寫得不夠清楚的地方嗎？
 body:
   - type: markdown
     attributes:
