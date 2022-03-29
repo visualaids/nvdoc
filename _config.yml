@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "zh-TW"
 title                    : "NVDOC"
 title_separator          : "-"
-subtitle                 : 供視障者存取的文件庫 # site tagline that appears below site title in masthead
+subtitle                 : 方便視障者存取的文件庫 # site tagline that appears below site title in masthead
 name                     : "非視覺文件志工"
 description              : "彙整視障者使用電腦軟體的相關問題與技術文件。"
 url                      : "https://visualaids.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
