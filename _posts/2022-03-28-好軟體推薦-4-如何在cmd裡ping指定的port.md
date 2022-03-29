@@ -1,5 +1,5 @@
 ---
-title: "好軟體推薦-4 如何在cmd裡ping指定的port"
+title: "好軟體推薦-4 如何在cmd裡ping指定的port"
 categories:
   - 好軟體推薦
 tags: 

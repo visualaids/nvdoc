@@ -1,8 +1,8 @@
 ---
-title: "好軟體推薦-3 foobar2000播放器，讓你播放b站和youtube的影片"
+title: "好軟體推薦-3 foobar2000播放器，讓你播放b站和youtube的影片"
 categories:
   - 好軟體推薦
-tags: 
+tags:
   - 軟體使用
 date: 2022-03-28
 ---

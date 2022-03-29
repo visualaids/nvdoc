@@ -1,5 +1,5 @@
 ---
-title: "好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧"
+title: "好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧"
 categories:
   - 好軟體推薦
 tags: 
