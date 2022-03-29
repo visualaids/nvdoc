@@ -8,6 +8,12 @@
 
 如果要直接驗證網站擁有者，可以[點此連結](https://search.google.com/search-console/welcome?utm_source=wnc_376106&utm_medium=panel&utm_campaign=wnc_376106&utm_content=msg_376106)。
 
-## 值得參考的 Jekyll 布景主題
+## 參考資料
+
+值得參考的 Jekyll 布景主題：
 
 - [Huxpro](https://github.com/Huxpro/huxpro.github.io)
+
+Youtube 影片：
+
+- [Up and Running with GitHub Pages](https://www.youtube.com/watch?v=EvYs1idcGnM&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq&index=1)
