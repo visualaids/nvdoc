@@ -1,17 +1,17 @@
 ---  
-title: "reaper、sws、osara輔助插件中文化"  
-categories:  
-  - reaper  
-tags:   
-  - 軟體使用  
-    - 中文化  
-date: 2022-03-28  
----  
-  
-作者:小羔羊  
-  
-### reaper、sws、osara輔助插件中文化  
-  
+title: "reaper、sws、osara 輔助插件中文化"
+categories:
+  - reaper
+tags:
+  - 軟體使用
+  - 中文化
+date: 2022-03-28
+---
+
+作者:小羔羊
+
+### reaper、sws、osara 輔助插件中文化
+
 hi，這次跟各位分享最新版的reaper中文化以及osara插件的中文化軟體，  
 下面會介紹的中文包圍繁體中文系統使用，如果你是使用簡體中文系統，可能需要手動轉碼成檢體中文，或是到reaper音頻群尋找簡體中文包，qq群號碼為→  
 374652340  
