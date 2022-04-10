@@ -77,4 +77,4 @@ forfiles /S /M * /C "cmd /c if @fsize GEQ 1073741824 echo @path" > bigfiles.txt
 
 本文介紹了 Windows 磁碟清理工具的操作步驟，以及找出大型檔案的指令。透過這兩種方法，通常已經能夠替自己回收不少磁碟空間。尤其是尋找大型檔案，是很值得學習的技巧。
 
-最後要補充的是，有的大型檔案可能會因為一些背景運行中的系統程式正在使用而無法手動刪除，碰到這種情況，就得再根據應用程式的特性來找出刪除檔案的方法。比如說，Windows Search 程式可能會替 Outlook 信件檔案建立非常大的索引檔（可能超過 5GB），這個索引檔就沒辦法手動刪除，而必須透過特定的程序來縮減檔案大小。如果你也碰到索引檔大的狀況，可參考這篇微軟的官方文件來解決：[當為 PST 檔案編制索引時，Windows .edb 大於預期大小](https://docs.microsoft.com/zh-tw/troubleshoot/windows-client/shell-experience/larger-windowsdotedb-file)。
+最後要補充的是，有的大型檔案可能會因為一些背景運行中的系統程式正在使用而無法手動刪除，碰到這種情況，就得再根據應用程式的特性來找出刪除檔案的方法。比如說，Windows Search 程式可能會替 Outlook 信件檔案建立非常大的索引檔（可能超過 5GB），這個索引檔就沒辦法手動刪除，而必須透過特定的程序來縮減檔案大小。如果你也碰到索引檔太大的狀況，可參考這篇微軟官方文件來解決：[當為 PST 檔案編制索引時，Windows.edb 大於預期大小](https://docs.microsoft.com/zh-tw/troubleshoot/windows-client/shell-experience/larger-windowsdotedb-file)。
