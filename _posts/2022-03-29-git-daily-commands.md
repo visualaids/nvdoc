@@ -4,7 +4,7 @@ categories:
   - Git
 tags:
   - "git"
-date: 2022-03-29  
+date: 2022-04-26 22:00:00 
 ---
 
 摘要：本文整理一些經常使用的 git 命令，以便快速查閱。
@@ -107,7 +107,21 @@ git fetch
 git push
 ```
 
+### 當 git pull 失敗時
 
+如果你在執行 git pull 時出現以下錯誤訊息：
+
+```
+需要指定如何調和偏離的分支。
+```
+
+英文訊息是：
+
+```
+You have divergent branches and need to specify how to reconcile them.
+```
+
+可以嘗試用 `git pull --rebase` 來解決。
 
 ## 忽略某些檔案
 
