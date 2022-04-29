@@ -10,7 +10,7 @@ date: 2022-03-28
 作者:小羔羊
 
 
-### 好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧
+## 好軟體推薦-2 覺得用指令下載youtube影片太麻煩，那來用open video downloader吧
 
 上篇我介紹了可以用指令下載youtube的工具yt-dlp，
 但對於很多使用者來說，要記指令、打指令還是不構便捷，因此就有網友推薦了另一個有UI可以操作的youtube下載軟體，
